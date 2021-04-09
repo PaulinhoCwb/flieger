@@ -13,5 +13,18 @@
  */
 
 return [
-    // ...
+    'db' => [
+        'driver' => 'Pdo',
+        'adapters' => [
+            mysqlAdapter::class => [
+                'driver' => 'Pdo',
+                'dsn' => 'mysql:dbname=application;host=localhost:3310;charset=utf8',
+                'username' => 'root',
+                'password' => 'en*3ke@Kh%2k7MdHgG*',
+                'driver_options' => [
+                    PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
+                ],
+            ],
+        ],
+    ],
 ];

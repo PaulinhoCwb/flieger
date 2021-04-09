@@ -1,0 +1,9 @@
+CREATE DATABASE flieger;
+
+USE DATABASE flieger;
+
+CREATE TABLE application (
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL
+);

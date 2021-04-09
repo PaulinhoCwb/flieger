@@ -32,4 +32,5 @@ return [
     'Laminas\DeveloperTools',
     'Laminas\Diactoros',
     'Application',
+    'Contact'
 ];
